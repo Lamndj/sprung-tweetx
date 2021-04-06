@@ -1,0 +1,80 @@
+.profile {
+  width: 50%;
+  margin: 40px auto;
+}
+
+.profile__header__card {
+  /* box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1); */
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  /* margin: 0 auto 20px auto; */
+}
+
+.profile__header__card__img {
+  /* width: 15%; */
+  margin-right: 100px;
+}
+
+.profile__header__card__img div {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid #cfcfcf;
+}
+
+.profile__header__card__userData {
+  width: 80%;
+}
+
+.profile__header__card__userData__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.profile__header__card__userData__header h3 {
+  color: #8c8c8c;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.profile__header__card__userData__header p {
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+.profile__header__card__userData__message {
+  color: #acacac;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__header__tabsContainer {
+  /* width: 80%; */
+  margin: 20px auto;
+}
+
+.profile__header__tabs .MuiTabs-flexContainer {
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+
+.profile__header__tabs .PrivateTabIndicator-root-1 {
+  background-color: #929292;
+}
+
+.profile__header__tabs .MuiTab-textColorPrimary.Mui-selected {
+  color: #878787;
+  font-weight: bold;
+}
+
+.profile__tweets__container,
+.profile__following__container {
+  margin-top: 40px;
+}

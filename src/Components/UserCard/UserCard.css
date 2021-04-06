@@ -1,0 +1,50 @@
+.userCard {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.userCard__img {
+  width: 15%;
+}
+
+.userCard__img div {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid #cfcfcf;
+}
+
+.userCard__userData {
+  width: 65%;
+}
+
+.userCard__userData__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.userCard__userData__header h3 {
+  color: #8c8c8c;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.userCard__userData__header p {
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+.userCard__userData__message {
+  color: #acacac;
+}
+
+.userCard__action {
+  /* width: 15%; */
+}

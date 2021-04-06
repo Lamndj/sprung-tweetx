@@ -1,0 +1,36 @@
+.login__body {
+  padding: 0 60px;
+}
+
+.login__body__form {
+  padding: 20px 0;
+  width: 40%;
+}
+
+.login__body__formBody {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login__body__formBody h3 {
+  color: #5e686f;
+  margin-bottom: 50px;
+  font-size: 32px;
+}
+
+.login__body__formBody .MuiFormControl-root {
+  margin-bottom: 24px !important;
+}
+
+.login__body__formbody__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login__body__formbody__actions p {
+  margin: 0;
+  color: #8c9195;
+  cursor: pointer;
+}
